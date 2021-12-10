@@ -1,6 +1,7 @@
 .d-wrap[data-wrap="template"] {
   padding: 0.5em;
-  border: 5px solid var(--primary-low, $primary-low);
+  border: 5px solid var(--tertiary);
+  border-radius: 1em;
 
   + h1,
   h2,
@@ -34,7 +35,7 @@
 
   .tags-list {
     padding: 0.5em 0;
-    border-bottom: 1px solid var(--primary-low, $primary-low);
+    border-bottom: 1px solid var(--primary-low);
     display: flex;
     flex-wrap: wrap;
 
