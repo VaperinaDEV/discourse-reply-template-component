@@ -83,7 +83,6 @@ function _createPm(dataset, post, controllerOptions) {
     topicTitle: "Ajándéközön 3.0 - Támogatás :heart:",
     archetypeId: "private_message",
     draftKey: Composer.NEW_PRIVATE_MESSAGE_KEY,
-    draftSequence: 0,
     topic: post.topic
   });
 }
