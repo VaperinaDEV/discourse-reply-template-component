@@ -82,7 +82,8 @@ function _createPm(dataset, post, controllerOptions) {
     recipients: "Vaperina_Kinga,Donat",
     topicTitle: "Ajándéközön 3.0 - Támogatás :heart:",
     archetypeId: "private_message",
-    topic: post.topic,
+    draftKey: Composer.NEW_PRIVATE_MESSAGE_KEY,
+    draftSequence: 0,
   });
 }
 
