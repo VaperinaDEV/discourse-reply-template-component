@@ -79,8 +79,9 @@ function _create(dataset, post, controllerOptions) {
 function _createPm(dataset, post, controllerOptions) {
   return Object.assign(controllerOptions, {
     action: Composer.PRIVATE_MESSAGE,
-    recipients: "Vaperina,Vaperina_Kinga",
+    recipients: [Vaperina,Vaperina_Kinga],
     topicTitle: "Ajándéközön - Támogatás :heart:",
+    topic: post.topic
   });
 }
 
