@@ -79,8 +79,8 @@ function _create(dataset, post, controllerOptions) {
 function _createPm(dataset, post, controllerOptions) {
   return Object.assign(controllerOptions, {
     action: Composer.PRIVATE_MESSAGE,
-    recipients: "Donat",
-    topicTitle: "Ajándéközön - Támogatás :heart:",
+    recipients: "Vaperina_Kinga,Donat",
+    topicTitle: "Ajándéközön 3.0 - Támogatás :heart:",
     archetypeId: "private_message",
     draftKey: Composer.NEW_PRIVATE_MESSAGE_KEY,
     draftSequence: 0,
